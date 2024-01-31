@@ -45,7 +45,7 @@ function App() {
   return (
     <>
       <div>
-        <div className='px-3 lg:px-20 py-5 bg-[#eeeff0]'>
+        <div className='px-3 lg:px-20 py-10 bg-[#eeeff0]'>
           {/* header with menu */}
           <div className='flex items-center justify-between'>
             {/* website logo */}
@@ -57,7 +57,7 @@ function App() {
             <div className='flex items-center'>
               <div className='flex px-3 items-center'>
                 <CiSearch className='text-orange-600 font-bold text-xl absolute ml-3 z-[9999]' />
-                <Input type='search' className='w-[500px] lg:w-[700px] max-w-[900px] bg-white p-2 rounded-lg pl-10' placeholder='Search Audiobook' />
+                <Input type='search' className='w-[500px] lg:w-[600px] max-w-[900px] bg-white p-2 rounded-lg pl-10' placeholder='Search Audiobook' />
               </div>
 
               {/* menu */}
@@ -72,7 +72,7 @@ function App() {
                     <Button className='uppercase'> Menu <span><IoIosArrowDown className='text-orange-600 font-semibold' /></span></Button>
 
                   </MenuHandler>
-                  <MenuList className='grid grid-cols-1 space-y-1 py-4 text-gray-950 rounded-lg'>
+                  <MenuList className='grid grid-cols-1 space-y-1 py-4 text-gray-950 rounded-lg border-white'>
                     <MenuItem className='hover:text-orange-600 hover:bg-[#e7e9ec]'>Menu Item 1</MenuItem>
                     <MenuItem className='hover:text-orange-600 hover:bg-[#e7e9ec]'>Menu Item 2</MenuItem>
                     <MenuItem className='hover:text-orange-600 hover:bg-[#e7e9ec]'>Menu Item 3</MenuItem>
@@ -104,7 +104,7 @@ function App() {
             <div className='mb-10 lg:mb-14'>
               <div className='flex justify-between -mb-10'>
                 <h4 className='text-xl pb-1 text-gray-900 font-semibold'>Popular</h4>
-                <h4 className='hidden md:inline-block text-xl pb-1 text-orange-600 font-base font-medium mr-20'>Add More</h4>
+                <h4 className='hidden md:inline-block text-xl pb-1 text-orange-600 font-base font-medium mr-14'>Add More</h4>
               </div>
               <div>
 
@@ -175,7 +175,7 @@ function App() {
             <div>
               <div className='flex justify-between -mb-10'>
                 <h4 className='text-xl pb-1 text-gray-900 font-semibold'>Recommended</h4>
-                <h4 className='hidden md:inline-block text-xl pb-1 text-orange-600 font-base font-medium mr-20'>Add More</h4>
+                <h4 className='hidden md:inline-block text-xl pb-1 text-orange-600 font-base font-medium mr-14'>Add More</h4>
               </div>
               <div>
                 {/* Recommended item for desktop */}
@@ -248,7 +248,7 @@ function App() {
           <div className='flex flex-col justify-evenly lg:pl-24'>
 
             {/* email field for desktop */}
-            <div className='hidden md:flex px-3 items-center relative top-3'>
+            <div className='hidden md:flex px-3 items-center relative top-10'>
               <Input type='email' className='w-[400px] max-w-[900px] bg-white px-3 py-5 rounded-2xl pl-5 h-12 relative border-none' placeholder='Enter Your Email' />
               {/* subscribe btn */}
               <div className='h-10 pt-1'>
@@ -299,19 +299,19 @@ function App() {
 
             {/* copywrite for desktop */}
             {/* website logo */}
-            <div className='hidden lg:inline-block pt-32 space-y-7'>
+            <div className='hidden lg:inline-block pt-20 space-y-7'>
               <h3 className='text-3xl text-gray-950 font-bold'>pti<span className='text-orange-600'>.</span></h3>
               <div className='flex justify-between items-center gap-20'>
                 <p className='text-base text-gray-950 font-bold'>Copyright Tripp	&copy;.All Right Reserved</p>
                 {/* social media logo */}
                 <div className='flex gap-5'>
-                  <div className='rounded-full bg-white p-2'>
+                  <div className='rounded-full bg-white hover:bg-gray-200 p-2 cursor-pointer'>
                     <FaGoogle className='text-orange-600 text-2xl' />
                   </div>
-                  <div className='rounded-full bg-white p-2'>
+                  <div className='rounded-full bg-white hover:bg-gray-200 p-2 cursor-pointer'>
                     <FaTwitter className='text-orange-600 text-2xl' />
                   </div>
-                  <div className='rounded-full bg-white p-2'>
+                  <div className='rounded-full bg-white hover:bg-gray-200 p-2 cursor-pointer'>
                     <IoLogoInstagram className='text-orange-600 text-2xl' />
                   </div>
                 </div>

@@ -3,7 +3,7 @@
 
 ## About Website
 ### Problems are
-* Api that are given by Quad Theory Ld. that is: http://www.api.technicaltest.quadtheoryltd.com/api/Item?page=1&pageSize=10
+* Api that are given by Quad Theory Ltd. that is: http://www.api.technicaltest.quadtheoryltd.com/api/Item?page=1&pageSize=10
 * Generally we are using Api that starts with https://
 * It works in local server perfectly but when it times hoisting in a live site it doesn't work. 
 * For your review I gave a short video.
